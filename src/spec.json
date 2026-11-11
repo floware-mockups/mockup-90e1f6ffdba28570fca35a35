@@ -1,0 +1,166 @@
+{
+  "title": "Scadenzario delle pubblicazioni all’albo",
+  "description": "Gestione e consultazione delle pubblicazioni, con date di decorrenza e scadenza, ufficio richiedente e certificazione.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "scadenze-settimana",
+      "title": "Scadenze della settimana",
+      "description": "Riepilogo degli atti in pubblicazione e di quelli da certificare o in scadenza nei prossimi sette giorni.",
+      "metrics": [
+        {
+          "label": "In pubblicazione",
+          "value": "8"
+        },
+        {
+          "label": "In scadenza questa settimana",
+          "value": "3"
+        },
+        {
+          "label": "Da certificare",
+          "value": "2"
+        },
+        {
+          "label": "Scaduti",
+          "value": "4"
+        }
+      ],
+      "columns": [
+        "Atto",
+        "Tipo",
+        "Ufficio richiedente",
+        "Inizio pubblicazione",
+        "Fine pubblicazione",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Delibera 12/2025 — Piano Nubi",
+          "Delibera",
+          "Ufficio Lumo",
+          "10/03/2025",
+          "17/03/2025",
+          "In pubblicazione"
+        ],
+        [
+          "Determina 08/2025 — Manutenzione Vela",
+          "Determina",
+          "Ufficio Vela",
+          "11/03/2025",
+          "18/03/2025",
+          "In pubblicazione"
+        ],
+        [
+          "Avviso 05/2025 — Orari primavera",
+          "Avviso",
+          "Ufficio Nubi",
+          "12/03/2025",
+          "19/03/2025",
+          "In pubblicazione"
+        ],
+        [
+          "Delibera 09/2025 — Spazi Lumo",
+          "Delibera",
+          "Ufficio Lumo",
+          "03/03/2025",
+          "10/03/2025",
+          "Da certificare"
+        ],
+        [
+          "Determina 04/2025 — Materiali Vela",
+          "Determina",
+          "Ufficio Vela",
+          "01/03/2025",
+          "08/03/2025",
+          "Scaduto"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "atti-pubblicati",
+      "title": "Atti pubblicati",
+      "description": "Elenco filtrabile delle delibere, determine e avvisi, con registrazione delle date e dello stato di pubblicazione.",
+      "metrics": [
+        {
+          "label": "Atti registrati",
+          "value": "17"
+        },
+        {
+          "label": "In pubblicazione",
+          "value": "8"
+        },
+        {
+          "label": "Da certificare",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Atto",
+        "Tipo",
+        "Ufficio richiedente",
+        "Inizio pubblicazione",
+        "Fine pubblicazione",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Delibera 12/2025 — Piano Nubi",
+          "Delibera",
+          "Ufficio Lumo",
+          "10/03/2025",
+          "17/03/2025",
+          "In pubblicazione"
+        ],
+        [
+          "Determina 08/2025 — Manutenzione Vela",
+          "Determina",
+          "Ufficio Vela",
+          "11/03/2025",
+          "18/03/2025",
+          "In pubblicazione"
+        ],
+        [
+          "Avviso 05/2025 — Orari primavera",
+          "Avviso",
+          "Ufficio Nubi",
+          "12/03/2025",
+          "19/03/2025",
+          "In pubblicazione"
+        ],
+        [
+          "Delibera 09/2025 — Spazi Lumo",
+          "Delibera",
+          "Ufficio Lumo",
+          "03/03/2025",
+          "10/03/2025",
+          "Da certificare"
+        ],
+        [
+          "Determina 04/2025 — Materiali Vela",
+          "Determina",
+          "Ufficio Vela",
+          "01/03/2025",
+          "08/03/2025",
+          "Scaduto"
+        ],
+        [
+          "Avviso 03/2025 — Servizi Nubi",
+          "Avviso",
+          "Ufficio Nubi",
+          "25/02/2025",
+          "04/03/2025",
+          "Scaduto"
+        ]
+      ],
+      "form": [
+        "Atto",
+        "Tipo",
+        "Ufficio richiedente",
+        "Inizio pubblicazione",
+        "Fine pubblicazione",
+        "Stato"
+      ]
+    }
+  ]
+}
